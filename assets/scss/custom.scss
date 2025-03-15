@@ -1,0 +1,116 @@
+// 导航栏 Logo 样式
+.navbar-brand img {
+  height: 200px !important;
+  width: auto !important;
+  margin-right: 10px !important;
+}
+
+#navbar-main .navbar-brand img {
+  max-height: 200px !important;
+  height: 200px !important;
+  width: auto !important;
+}
+
+// 通用字体设置 Mixin
+@mixin bilingual-font {
+  font-family: Arial, "黑体", "Microsoft YaHei", sans-serif !important;
+  
+  // 针对中文字符设置黑体
+  &:lang(zh) {
+    font-family: "黑体", "Microsoft YaHei", sans-serif !important;
+  }
+  
+  // 针对英文字符设置 Arial
+  &:lang(en) {
+    font-family: Arial, sans-serif !important;
+  }
+}
+
+// 导航栏样式
+.navbar {
+  .nav-link {
+    @include bilingual-font;
+    font-size: 1.2rem !important;
+    font-weight: bold !important;
+    padding: 0.5rem 1rem !important;  // 设置导航项的内部间距
+    margin: 0 0.5rem !important;        // 设置导航项之间的间距
+  }
+  
+  .navbar-brand {
+    @include bilingual-font;
+    font-size: 1.5rem !important;
+    font-weight: bold !important;
+  }
+}
+
+// 标题样式
+h1 {
+  @include bilingual-font;
+  font-size: 2.5rem !important;
+}
+
+h2 {
+  @include bilingual-font;
+  font-size: 2rem !important;
+}
+
+h3, h4, h5, h6 {
+  @include bilingual-font;
+}
+
+// 正文样式
+body {
+  @include bilingual-font;
+}
+
+p, li {
+  @include bilingual-font;
+  font-size: 1.2rem !important;
+}
+
+// 表格样式
+table, td, th {
+  @include bilingual-font;
+  font-size: 1.2rem !important;
+}
+
+// 按钮样式
+.btn {
+  font-size: 1.2rem !important;
+}
+
+// 页脚样式
+.site-footer {
+  font-size: 1rem !important;
+  
+  p, .powered-by {
+    font-size: 1rem !important;
+  }
+  
+  .copyright-license-text {
+    font-size: 0.5rem !important;
+  }
+  
+  .footer-license-icons {
+    font-size: 0.5rem !important;
+  }
+}
+
+// 其他元素样式
+footer {
+  font-size: 1rem !important;
+  
+  .powered-by,
+  .copyright,
+  .license-wrapper,
+  div[class*="copyright-license-text"] {
+    font-size: 1rem !important;
+  }
+  
+  .footer-license-icons,
+  .license-icons,
+  .fab,
+  .fas {
+    font-size: 1rem !important;
+  }
+}

@@ -1,118 +1,127 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
-# Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# 网站基础设置
+# 主题文档: https://docs.hugoblox.com/tutorial/
+# 详细文档: https://docs.hugoblox.com/
+# YAML语法说明: https://learnxinyminutes.com/docs/yaml/
 
-# Appearance
-
+# 外观设置
 appearance:
+  # 主题设置
   theme_day: minimal
   theme_night:
-  font: native
-  font_size: L
+  # 字体设置
+  font: "黑体, Arial, Microsoft YaHei, sans-serif"
+  font_mono: "JetBrains Mono, Consolas, Monaco, monospace"
+  # 字体大小设置
+  font_size: M
+  # 行高设置
+  line_height: 1.5
+  # 段落间距
+  paragraph_spacing: 1.2
+  # 自定义样式
+  custom_css:
+    - custom/custom.scss
 
-# SEO
-
+# SEO优化设置
 marketing:
   seo:
+    # 网站类型
     site_type: Organization
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo research group theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    # 组织名称
+    org_name: '华北电力大学重力储能研究团队'
+    # 网站描述
+    description: '致力于重力储能技术创新与应用的研究团队'
+    # 社交媒体
+    twitter: ''
+  # 统计分析
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
+  # 站点验证
   verification:
     google: ''
     baidu: ''
 
-# Site header
-
+# 顶部导航栏设置
 header:
   navbar:
+    # 是否启用导航栏
     enable: true
+    # 导航对齐方式（l:左对齐, r:右对齐, c:居中）
     align: r
+    # 是否显示Logo
     show_logo: true
+    # 是否显示语言切换
     show_language: false
+    # 是否显示暗色模式切换
     show_day_night: true
+    # 是否显示搜索框
     show_search: true
-    highlight_active_link: false
+    # 是否高亮当前页面链接
+    highlight_active_link: true
 
-# Site footer
-
+# 页脚设置
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    # 版权声明
+    notice: '© {year} 华北电力大学重力储能研究团队. 保留所有权利.'
     license:
+      # 是否启用许可证
       enable: true
+      # 是否允许演绎
       allow_derivatives: false
+      # 是否要求相同方式共享
       share_alike: true
+      # 是否允许商业使用
       allow_commercial: false
 
-# Localization
-
+# 本地化设置
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  # 日期格式
+  date_format: '2006年01月02日'
+  # 时间格式
+  time_format: '15:04'
+  # 地址格式（改为 en-us，因为 zh-cn 格式未定义）
   address_format: en-us
 
-# Site features
-
+# 功能特性设置
 features:
+  # 代码高亮
   syntax_highlighter:
-    enable: false
+    enable: true
+    # 额外支持的语言
     extra_languages:
       - r
       - latex
+  # 数学公式
   math:
-    enable: false
+    enable: true
+  # 隐私保护
   privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
+    enable: true
+  # 头像设置
   avatar:
     gravatar: false
     shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+  # 搜索功能
   search:
     provider: wowchemy
     algolia:
       app_id: ''
       api_key: ''
       index_name: ''
-      show_logo: false
+  # 地图设置
   map:
     provider: 'mapnik'
     api_key: ''
     zoom: 15
 
-# Extensions
-
+# 扩展功能
 extensions:
-  decap_cms:
-    branch: main
-    local_backend: false
+  # 学术图标
   academicons:
     enable: true
 
-# Citation style
-
+# 文献引用样式
 publications:
-  date_format: January 2006
+  date_format: '2006年01月'
   citation_style: apa
