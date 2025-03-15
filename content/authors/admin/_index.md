@@ -1,77 +1,66 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: "华北电力大学重力储能团队 / Gravity Energy Storage of North China Electrical Power University"
 
-# Full Name (for SEO)
-first_name: Nelson
-last_name: Bighetti
+# Full name (for SEO)
+first_name: "Gravity Energy Storage"
+last_name: "North China Electrical Power University"
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: "重力储能系统及其应用研究团队"
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
-    url: ''
+  - name: "新能源电力系统国家重点实验室（华北电力大学）"
+    url: "https://laps.ncepu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: "我们是华北电力大学重力储能团队，致力于重力储能系统及其应用研究，专注于提高重力储能效率、优化系统设计和降低工程成本，旨在为大规模能量存储和低碳电力系统转型提供创新解决方案。"
 
+# Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - 重力储能系统设计与优化
+  - 储能系统经济性分析
+  - 新能源电力系统集成
+  - 智能控制与自动化
+  - 可再生能源消纳技术
 
+# Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: 重力储能示范工程
+      institution: 华北电力大学
+      year: 2024
+    - course: 储能技术研发中心
+      institution: 新能源电力系统国家重点实验室
+      year: 2023
 
 # Social/Academic Networking
-# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
-  - icon: twitter
-    icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+    link: 'mailto:WenxuanTong@163.com'
+  - icon: globe
+    icon_pack: fas
+    link: 'https://laps.ncepu.edu.cn/'
+  - icon: university
+    icon_pack: fas
+    link: 'https://www.ncepu.edu.cn/'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: "WenxuanTong@163.com"
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 
 # Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Research Teams
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+华北电力大学重力储能团队是一支跨学科协作的高水平研究团队，专注于探索重力储能技术在新能源电力系统中的应用。我们的研究涵盖系统设计、关键技术突破、经济性分析及工程示范等多个领域，旨在推动可再生能源的高效消纳和低碳电力系统的转型升级。
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+借鉴国内外先进经验，我们不断优化技术方案，并与业界和科研机构开展广泛合作，共同应对大规模储能及能源转型的挑战。我们的团队致力于培养新一代储能技术人才，推动产学研深度融合，为国家能源革命和碳中和目标做出积极贡献。
