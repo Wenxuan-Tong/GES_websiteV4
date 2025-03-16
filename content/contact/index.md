@@ -1,7 +1,6 @@
 ---
 title: 招生指南
 date: 2025-03-14
-
 type: landing
 
 sections:
@@ -10,6 +9,8 @@ sections:
       title: 重力储能研究组招生简章
       text: |-
         
+        ---
+
         **重力储能研究组**依托华北电力大学新能源电力系统国家重点实验室，是学校在重力储能领域的专业化研究团队。我们主要面向风电、光伏等可再生能源大规模消纳的重大需求，开展理论方法、关键技术、示范平台与装备研发，努力为我国及全球能源转型贡献前沿解决方案。
 
         我们的研究工作获得了**国家自然科学基金、省部级科技专项**以及多家能源、电力头部企业的长期支持，核心竞争力体现在**电站级运行控制与复合储能系统设计**、**重力储能潜力评估及工程示范**、**智能化运维与优化调度**等方面。团队既注重面向工业实际需求的工程应用，也鼓励有潜力的同学深耕创新性方法并发表高水平论文。目前已在国内外重要期刊与学术会议上发表多篇论文，牵头或参与项目申请与技术标准制定，在储能关键技术领域建立了一定影响力。
@@ -20,7 +21,7 @@ sections:
 
         ---
 
-        ## 招生对象
+        ## **招生对象**
 
         本团队现面向以下人员招生：
         - **博士生**：对重力储能领域有浓厚兴趣，具备扎实的专业基础和科研潜力
@@ -30,7 +31,7 @@ sections:
 
         ---
 
-        ## 研究方向
+        ## **研究方向**
 
         - **电站级运行控制与配置优化**  
           重点关注多工况下储能电站的动态响应与功率调度策略，提升系统整体效率和安全性。
@@ -43,7 +44,7 @@ sections:
 
         ---
 
-        ## 团队优势
+        ## **团队优势**
 
         - **依托国家重点实验室**：拥有先进实验平台与科研设备，为同学提供高水平的研究环境
         - **校企合作与国际交流**：与国内外知名企业和研究机构开展横向合作，开拓国际视野
@@ -52,7 +53,7 @@ sections:
 
         ---
 
-        ## 申请方式
+        ## **申请方式**
 
         如有兴趣，请将个人简历、成绩单及研究计划等相关材料发送至：**chenyanbo@ncepu.edu.cn**  
         并在邮件标题注明“应聘XX（博士/硕士/实习/博士后）-姓名-学校专业”。
@@ -63,53 +64,42 @@ sections:
 
     design:
       columns: '1'
-      background:
-        image:
-          filename: "contact.jpg"
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 
-  - block: contact
+  - block: markdown
     content:
       title: 联系我们
       text: |-
-        华北电力大学重力储能团队期待优秀的你加入我们！如果你对重力储能技术充满热情，欢迎与我们联系。
-      email: chenyanbo@ncepu.edu.cn
-      phone: 010-61771723
-      address:
-        street: 北京市昌平区回龙观镇北农路2号
-        city: 北京市
-        region: 昌平区
-        postcode: '102206'
-        country: 中国
-        country_code: CN
-      coordinates: 
+        <div class="custom-contact-list">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span><strong>chenyanbo@ncepu.edu.cn</strong></span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span><strong>010-61771723</strong></span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span><strong>北京市昌平区回龙观镇北农路2号 华北电力大学主楼A758</strong></span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <span><strong>周一至周五 9:00 至 17:00</strong></span>
+          </div>
+        </div>
+    design:
+      columns: '1'
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      
+  - block: contact
+    content:
+      map: true
+      coordinates:
         latitude: '40.089709923765284'
         longitude: '116.30624555215269'
-      directions: 华北电力大学主楼A758
-      office_hours:
-        - '周一至周五 9:00 至 17:00'
-      appointment_url: 'https://calendly.com'
-      contact_links:
-        - icon: comments
-          icon_pack: fas
-          name: 在线咨询
-          link: 'mailto:chenyanbo@ncepu.edu.cn'
-      autolink: true
-
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          captcha: true
     design:
       columns: '1'
 ---

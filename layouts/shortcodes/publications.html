@@ -1,0 +1,122 @@
+{{ $bibFile := .Get "file" }}
+{{ $bib := readFile $bibFile }}
+{{ $entries := split $bib "@" }}
+
+<div class="search-container">
+  <div class="search-box">
+    <input type="text" id="pub-search" placeholder="搜索论文...">
+  </div>
+  <div class="filter-box">
+    <select id="pub-type-filter">
+      <option value="">所有类型</option>
+      <option value="期刊论文">期刊论文</option>
+      <option value="会议论文">会议论文</option>
+      <option value="学位论文">学位论文</option>
+      <option value="专著">专著</option>
+      <option value="专利">专利</option>
+    </select>
+    <select id="pub-year-filter">
+      <option value="">所有年份</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+    </select>
+  </div>
+</div>
+
+<div class="publications-list">
+  {{ range $entries }}
+    {{ if ne . "" }}
+      {{ $entry := printf "@%s" . }}
+      
+      {{/* 提取文献类型 */}}
+      {{ $entryType := index (findRE `^@(\w+)` $entry) 0 | strings.TrimPrefix "@" }}
+      {{ $pubType := "" }}
+      {{ if eq $entryType "article" }}
+        {{ $pubType = "期刊论文" }}
+      {{ else if eq $entryType "inproceedings" }}
+        {{ $pubType = "会议论文" }}
+      {{ else if eq $entryType "phdthesis" }}
+        {{ $pubType = "学位论文" }}
+      {{ else if eq $entryType "book" }}
+        {{ $pubType = "专著" }}
+      {{ else if eq $entryType "patent" }}
+        {{ $pubType = "专利" }}
+      {{ end }}
+      
+      {{/* 提取文献信息 */}}
+      {{ $title := "" }}
+      {{ if $matches := findRE `title\s*=\s*{([^}]*)}` $entry }}
+        {{ $title = index $matches 0 | replaceRE `title\s*=\s*{` "" | replaceRE `}$` "" }}
+      {{ end }}
+      
+      {{ $author := "" }}
+      {{ if $matches := findRE `author\s*=\s*{([^}]*)}` $entry }}
+        {{ $author = index $matches 0 | replaceRE `author\s*=\s*{` "" | replaceRE `}$` "" }}
+      {{ end }}
+      
+      {{ $journal := "" }}
+      {{ if $matches := findRE `journal\s*=\s*{([^}]*)}` $entry }}
+        {{ $journal = index $matches 0 | replaceRE `journal\s*=\s*{` "" | replaceRE `}$` "" }}
+      {{ end }}
+      
+      {{ $year := "" }}
+      {{ if $matches := findRE `year\s*=\s*{?(\d+)}?` $entry }}
+        {{ $year = index $matches 0 | replaceRE `year\s*=\s*{?` "" | replaceRE `}$` "" }}
+      {{ end }}
+      
+      {{ $doi := "" }}
+      {{ if $matches := findRE `doi\s*=\s*{([^}]*)}` $entry }}
+        {{ $doi = index $matches 0 | replaceRE `doi\s*=\s*{` "" | replaceRE `}$` "" }}
+      {{ end }}
+
+      {{/* 显示文献信息 */}}
+      {{ if and $title $author }}
+        <div class="pub-item" data-type="{{ $pubType }}">
+          <p class="pub-title">{{ $title }}</p>
+          <p class="pub-authors">{{ $author }}</p>
+          <p class="pub-info">
+            {{ if $journal }}{{ $journal }}{{ end }}
+            {{ if $year }}, {{ $year }}{{ end }}
+          </p>
+          {{ if $doi }}
+            <a href="https://doi.org/{{ $doi }}" target="_blank" rel="noopener" class="btn btn-sm btn-outline-primary">DOI</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('pub-search');
+    const typeFilter = document.getElementById('pub-type-filter');
+    const yearFilter = document.getElementById('pub-year-filter');
+    const pubItems = document.querySelectorAll('.pub-item');
+
+    function filterPublications() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const selectedType = typeFilter.value;
+        const selectedYear = yearFilter.value;
+
+        pubItems.forEach(item => {
+            const title = item.querySelector('.pub-title').textContent.toLowerCase();
+            const authors = item.querySelector('.pub-authors').textContent.toLowerCase();
+            const type = item.dataset.type;
+            const year = item.querySelector('.pub-info').textContent.match(/\d{4}/)?.[0];
+
+            const matchesSearch = title.includes(searchTerm) || authors.includes(searchTerm);
+            const matchesType = !selectedType || type === selectedType;
+            const matchesYear = !selectedYear || year === selectedYear;
+
+            item.style.display = matchesSearch && matchesType && matchesYear ? 'block' : 'none';
+        });
+    }
+
+    searchInput.addEventListener('input', filterPublications);
+    typeFilter.addEventListener('change', filterPublications);
+    yearFilter.addEventListener('change', filterPublications);
+});
+</script>

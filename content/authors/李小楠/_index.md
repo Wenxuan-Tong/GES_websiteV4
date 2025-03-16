@@ -8,13 +8,13 @@ last_name: 李
 
 # Username (this should match the folder name)
 authors:
-  - tongwenxuan
+  - lixiaonan
 
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
-role: 重力储能团队负责人 / 教授
+role: 硕士研究生 (2023年至今)
 
 # Organizations/Affiliations
 organizations:
@@ -22,69 +22,50 @@ organizations:
     url: 'https://www.ncepu.edu.cn/'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 长期从事重力储能系统的理论研究与工程应用，在电站级运行控制、复合储能设计、智能化运维等方面取得了一系列高水平成果。
-
-interests:
-  - 重力储能系统设计与优化
-  - 复合储能系统建模与控制
-  - 可再生能源并网与调度
-
-education:
-  courses:
-    - course: 电气工程专业博士
-      institution: XX大学
-      year: 2015
-    - course: 电气工程专业硕士
-      institution: XX大学
-      year: 2010
-    - course: 电气工程专业学士
-      institution: XX大学
-      year: 2007
+bio: 主要研究方向为重力储能系统的运行控制与优化。
 
 # Social/Academic Networking
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:Wenxuan_Tong@163.com'
-  - icon: google-scholar
-    icon_pack: ai
-    link: https://scholar.google.com/
-  - icon: researchgate
-    icon_pack: ai
-    link: https://www.researchgate.net/
-  - icon: orcid
-    icon_pack: ai
-    link: https://orcid.org/
+    link: 'mailto:lixiaonan@ncepu.edu.cn'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "Wenxuan_Tong@163.com"
+email: "lixiaonan@ncepu.edu.cn"
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
   - 硕士生
 ---
 
-## 个人简介
+## 基本信息
 
-童文煊教授现任华北电力大学重力储能团队负责人，全面负责团队的整体规划与项目统筹。他长期从事重力储能系统的理论研究与工程应用，带领团队在电站级运行控制、复合储能设计、智能化运维等方面取得了一系列高水平成果。
+- **姓名**：李小楠
+- **学位**：硕士研究生 (2023年至今)
+- **导师**：陈艳波 教授
+- **所在单位**：华北电力大学 电气与电子工程学院
 
-## 工作经历
+## 研究方向
 
-- **2025年至今**：华北电力大学重力储能团队负责人，教授  
-- **2022-2025**：华北电力大学 XX 学院副教授
-- **2018-2022**：某研究所高级研究员
+- 重力储能系统建模与仿真
+- 储能系统控制策略研究
+- 可再生能源消纳技术
 
-## 学术兼职
+## 教育经历
 
-- 中国电机工程学会 会员
-- IEEE Senior Member
+- **2023年至今**：华北电力大学 电气工程专业 硕士研究生
+- **2019-2023**：XX大学 电气工程及其自动化专业 学士
 
-## 代表性成果
+## 科研成果
 
-### 论文
-1. [论文题目1](#) - 简要描述
-2. [论文题目2](#) - 简要描述
+### 参与项目
+- 国家自然科学基金项目"大规模重力储能系统关键技术研究"(在研)
+- 企业合作项目"重力储能示范工程控制系统开发"(在研)
 
-### 专利
-- **专利名称1**：专利简介或授权信息
-- **研究报告1**：针对某项目的技术报告
+### 发表论文
+暂无
+
+## 获奖情况
+
+- 20XX年 华北电力大学优秀研究生
+- 2023年 XX大学优秀毕业生

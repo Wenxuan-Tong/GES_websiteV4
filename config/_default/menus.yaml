@@ -37,6 +37,10 @@ main:
     url: publication
     weight: 50
 
+  - name: 科研项目
+    url: projects
+    weight: 51
+
   - name: 招生指南
     url: contact
     weight: 60
