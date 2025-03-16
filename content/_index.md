@@ -55,7 +55,7 @@ sections:
       columns: '2'
       background:
         image: 
-          filename: background.jpg
+          filename: 
           filters:
             brightness: 0.7
           parallax: false

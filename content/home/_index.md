@@ -18,7 +18,7 @@ sections:
         padding: ['50px', '0', '100px', '0']
       background:
         image:
-          filename: background.jpg  # 从 assets/media/ 目录加载
+          filename:   # 从 assets/media/ 目录加载
           filters:
             brightness: 0.7
           position: center

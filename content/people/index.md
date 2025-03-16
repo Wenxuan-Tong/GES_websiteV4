@@ -17,7 +17,7 @@ sections:
         padding: ['50px', '0', '50px', '0']
       background:
         image:
-          filename: background.jpg
+          filename: 
           filters:
             brightness: 0.7
           position: center
