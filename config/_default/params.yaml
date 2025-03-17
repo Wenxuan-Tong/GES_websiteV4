@@ -27,9 +27,13 @@ marketing:
     # 网站类型
     site_type: Organization
     # 组织名称
-    org_name: '华北电力大学重力储能研究团队'
+    org_name: 
+      en: 'NCEPU Gravity Energy Storage Research Team'
+      zh: '华北电力大学重力储能研究团队'
     # 网站描述
-    description: '致力于重力储能技术创新与应用的研究团队'
+    description:
+      en: 'Research team dedicated to gravity energy storage technology innovation and application'
+      zh: '致力于重力储能技术创新与应用的研究团队'
     # 社交媒体
     twitter: ''
   # 统计分析
@@ -51,7 +55,7 @@ header:
     # 是否显示Logo
     show_logo: true
     # 是否显示语言切换
-    show_language: false
+    show_language: true  # 修改为 true 以启用语言切换按钮
     # 是否显示暗色模式切换
     show_day_night: true
     # 是否显示搜索框
@@ -63,7 +67,9 @@ header:
 footer:
   copyright:
     # 版权声明
-    notice: '© {year} 华北电力大学重力储能研究团队. 保留所有权利.'
+    notice:
+      en: '© {year} NCEPU Gravity Energy Storage Research Team. All Rights Reserved.'
+      zh: '© {year} 华北电力大学重力储能研究团队. 保留所有权利.'
     license:
       # 是否启用许可证
       enable: true
@@ -77,9 +83,13 @@ footer:
 # 本地化设置
 locale:
   # 日期格式
-  date_format: '2006年01月02日'
+  date_format:
+    en: '2006-01-02'
+    zh: '2006年01月02日'
   # 时间格式
-  time_format: '15:04'
+  time_format:
+    en: '15:04'
+    zh: '15:04'
   # 地址格式（改为 en-us，因为 zh-cn 格式未定义）
   address_format: en-us
 
@@ -125,3 +135,9 @@ extensions:
 publications:
   date_format: '2006年01月'
   citation_style: apa
+
+en:
+  description: "English description of your research group"
+
+zh:
+  description: "您的研究团队中文描述"

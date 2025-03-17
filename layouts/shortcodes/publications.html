@@ -4,19 +4,19 @@
 
 <div class="search-container">
   <div class="search-box">
-    <input type="text" id="pub-search" placeholder="搜索论文...">
+    <input type="text" id="pub-search" placeholder="{{ if eq $.Site.Language.Lang "zh" }}搜索论文...{{ else }}Search papers...{{ end }}">
   </div>
   <div class="filter-box">
     <select id="pub-type-filter">
-      <option value="">所有类型</option>
-      <option value="期刊论文">期刊论文</option>
-      <option value="会议论文">会议论文</option>
-      <option value="学位论文">学位论文</option>
-      <option value="专著">专著</option>
-      <option value="专利">专利</option>
+      <option value="">{{ if eq $.Site.Language.Lang "zh" }}所有类型{{ else }}All Types{{ end }}</option>
+      <option value="期刊论文">{{ if eq $.Site.Language.Lang "zh" }}期刊论文{{ else }}Journal Papers{{ end }}</option>
+      <option value="会议论文">{{ if eq $.Site.Language.Lang "zh" }}会议论文{{ else }}Conference Papers{{ end }}</option>
+      <option value="学位论文">{{ if eq $.Site.Language.Lang "zh" }}学位论文{{ else }}Theses{{ end }}</option>
+      <option value="专著">{{ if eq $.Site.Language.Lang "zh" }}专著{{ else }}Books{{ end }}</option>
+      <option value="专利">{{ if eq $.Site.Language.Lang "zh" }}专利{{ else }}Patents{{ end }}</option>
     </select>
     <select id="pub-year-filter">
-      <option value="">所有年份</option>
+      <option value="">{{ if eq $.Site.Language.Lang "zh" }}所有年份{{ else }}All Years{{ end }}</option>
       <option value="2025">2025</option>
       <option value="2024">2024</option>
       <option value="2023">2023</option>

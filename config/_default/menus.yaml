@@ -16,14 +16,32 @@ main:
   - name: 研究团队
     url: people
     weight: 11
+    lang: zh
+
+  - name: Research Team
+    url: people
+    weight: 11
+    lang: en
 
   - name: 团队愿景
     url: value
     weight: 12
+    lang: zh
+
+  - name: Team Vision
+    url: value
+    weight: 12
+    lang: en
 
   - name: 研究简介
     url: research-introduction
     weight: 13
+    lang: zh
+
+  - name: Research Introduction
+    url: research-introduction
+    weight: 13
+    lang: en
 
   # - name: News
   #   url: post
@@ -36,11 +54,29 @@ main:
   - name: 学术论文
     url: publication
     weight: 50
+    lang: zh
+
+  - name: Publications
+    url: publication
+    weight: 50
+    lang: en
 
   - name: 科研项目
     url: projects
     weight: 51
+    lang: zh
+
+  - name: Projects
+    url: projects
+    weight: 51
+    lang: en
 
   - name: 招生指南
     url: contact
     weight: 60
+    lang: zh
+
+  - name: Admission Guide
+    url: contact
+    weight: 60
+    lang: en

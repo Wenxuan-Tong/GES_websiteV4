@@ -5,18 +5,54 @@
 # Default language
 en:
   languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
+  title: "NCEPU Gravity Energy System Team"
+  params:
+    description: "Research team focusing on gravity energy system"
+  menu:
+    main:
+      - name: "Research Team"
+        url: people
+        weight: 11
+      - name: "Team Vision"
+        url: value
+        weight: 12
+      - name: "Research Introduction"
+        url: research-introduction
+        weight: 13
+      - name: "Publications"
+        url: publication
+        weight: 50
+      - name: "Projects"
+        url: projects
+        weight: 51
+      - name: "Admission Guide"
+        url: contact
+        weight: 60
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: "华北电力大学重力储能团队"
+  params:
+    description: "专注于重力储能系统研究的团队"
+  menu:
+    main:
+      - name: "研究团队"
+        url: people
+        weight: 11
+      - name: "团队愿景"
+        url: value
+        weight: 12
+      - name: "研究简介"
+        url: research-introduction
+        weight: 13
+      - name: "学术论文"
+        url: publication
+        weight: 50
+      - name: "科研项目"
+        url: projects
+        weight: 51
+      - name: "招生指南"
+        url: contact
+        weight: 60

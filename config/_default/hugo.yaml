@@ -10,9 +10,9 @@ baseURL: 'https://example.com/' # Website URL
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: zh # 修改默认语言为中文
+hasCJKLanguage: true      # 启用 CJK 语言支持
+defaultContentLanguageInSubdir: true # 启用语言子目录
 removePathAccents: true
 
 ############################
