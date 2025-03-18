@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: NCEPU-GEST # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://miniature-fiesta-979grpvg7w7ghp9x7-1313.app.github.dev/' # 使用实际的 Codespace URL
 
 ############################
 ## LANGUAGE

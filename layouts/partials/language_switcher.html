@@ -1,0 +1,9 @@
+{{ if .IsTranslated }}
+  <div class="dropdown-menu">
+    {{ range .Translations }}
+      <a class="dropdown-item" href="{{ .Permalink | replaceRE "(http|https)://[^/]+(?::[0-9]+)?" "https://miniature-fiesta-979grpvg7w7ghp9x7-1313.app.github.dev" }}">
+        {{ .Language.LanguageName }}
+      </a>
+    {{ end }}
+  </div>
+{{ end }}
