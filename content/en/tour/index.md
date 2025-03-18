@@ -1,54 +1,52 @@
 ---
 title: Tour
-date: 2022-10-24
-
+date: 2024-03-18
 type: landing
 
 sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: Welcome to NCEPU Gravity Energy Storage Team
+        content: Explore our research in gravity energy storage technology...
         align: center
         background:
           image:
-            filename: 
+            filename: coders.jpg  # 可以添加团队工作照片
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      
+      - title: Research Facilities 
+        content: 'State-of-the-art laboratories and simulation platforms for energy storage research'
         align: left
         background:
           image:
-            filename: 
+            filename: lab.jpg  # 可以添加实验室照片
             filters:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      
+      - title: Industry Collaboration
+        content: 'Working with leading energy companies to implement gravity storage solutions'
         align: right
         background:
           image:
-            filename: 
+            filename: project.jpg  # 可以添加项目现场照片
             filters:
               brightness: 0.5
           position: center
           color: '#333'
         link:
-          icon: graduation-cap
+          icon: handshake
           icon_pack: fas
-          text: Join Us
+          text: Collaborate with Us
           url: ../contact/
     design:
-      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
-      # Automatically transition through slides?
       loop: false
-      # Duration of transition between slides (in ms)
       interval: 2000
 ---

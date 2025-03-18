@@ -1,47 +1,28 @@
 ---
-linkTitle: "团队研究概括"         # 导航栏中显示的短标题
-title: "团队研究概括"             # 页面主标题
-description: "华北电力大学重力储能团队在重力储能领域的研究概览与未来发展规划"  # SEO描述
+linkTitle: "Research Overview"
+title: "Research Overview"
+description: "Research overview and future development plans in gravity energy storage field by NCEPU team"
 ---
-我们致力于为新能源电力系统的低碳转型和大规模能量存储提供创新的技术支持，并通过多学科交叉研究不断推动技术进步与成果转化。
+
+We are dedicated to providing innovative technical support for low-carbon transformation and large-scale energy storage in new energy power systems, continuously promoting technological progress and achievement transformation through interdisciplinary research.
 
 <!--more-->
 
-## 主要研究方向
+## Main Research Directions
 
-我们的研究工作聚焦于以下几个核心方向，每个方向均从理论研究、技术攻关与工程示范三个层面展开：
+Our research focuses on the following core directions, each developed from theoretical research, technical breakthroughs, and engineering demonstrations:
 
-- **电站级运行控制与配置优化**  
-  探索储能电站在多工况下的动态响应与控制策略，优化频率调节、功率平衡及应急响应，确保系统在正常及故障工况下的稳定运行。
+- [**Power Plant Operation Control and Configuration Optimization**]({{< relref "direction-1" >}})  
+  Explore dynamic response and control strategies of energy storage power plants under multiple operating conditions, optimize frequency regulation, power balance, and emergency response to ensure system stability under normal and fault conditions.
 
-- **复合储能系统设计**  
-  融合重力储能与其他储能形式（如热能、化学能等）的优势，通过数学建模和仿真技术优化多能流耦合策略，实现系统整体性能和经济效益的提升。
+- [**Hybrid Energy Storage System Design**]({{< relref "direction-2" >}})  
+  Integrate advantages of gravity storage with other forms (such as thermal, chemical energy), optimize multi-energy flow coupling strategies through mathematical modeling and simulation to improve overall system performance and economic benefits.
 
-- **重力储能潜力与综合效益评估**  
-  构建多因素耦合评估模型，系统量化经济性、碳减排与环境效益，为大规模储能项目的推广提供科学依据和决策支持。
+- [**Gravity Storage Potential and Comprehensive Benefit Assessment**]({{< relref "direction-3" >}})  
+  Build multi-factor coupling evaluation models, systematically quantify economics, carbon reduction, and environmental benefits to provide scientific basis and decision support for large-scale storage project promotion.
 
-- **智能化技术应用**  
-  结合人工智能、大数据与机器学习技术，开发自学习、故障预防及自适应调度系统，提升储能系统的智能化水平和运营效率。
-
-
-
-## 团队愿景与发展规划
-
-我们秉承“技术创新、跨界融合、成果转化”的理念，
-致力于巩固现有技术优势的同时，积极拓展新的研究领域，
-以实现重力储能技术在新能源电力系统中的深度应用和广泛推广。
-未来，我们将持续推动多学科协同研究，
-加快技术转化和产业合作，努力构建一个具有国际影响力的重力储能研究体系。
-
-
-
-## 最新动态
-
-为保持技术前沿，团队不断关注国内外最新研究成果和产业动态，
-并定期更新最新科研进展、项目成果及重要学术活动。
-请持续关注本页面，获取团队的最新动态信息。
-
-
+- [**Intelligent Technology Applications**]({{< relref "direction-4" >}})  
+  Combine AI, big data, and machine learning technologies to develop self-learning, fault prevention, and adaptive scheduling systems, enhancing intelligence level and operational efficiency of storage systems.
 
 ---
 

@@ -1,57 +1,60 @@
 ---
 # Display name
-title: "华北电力大学重力储能团队 / Gravity Energy Storage of North China Electrical Power University"
+title: "NCEPU Gravity Energy Storage Team"
 
 # Full name (for SEO)
 first_name: "Gravity Energy Storage"
-last_name: "North China Electrical Power University"
+last_name: "North China Electric Power University"
 
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
-role: "重力储能系统及其应用研究团队"
+role: "Research Team for Gravity Energy Storage Systems and Applications"
 
 # Organizations/Affiliations
 organizations:
-  - name: "新能源电力系统国家重点实验室（华北电力大学）"
+  - name: "State Key Laboratory of New Energy Power Systems (North China Electric Power University)"
     url: "https://laps.ncepu.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: "我们是华北电力大学重力储能团队，致力于重力储能系统及其应用研究，专注于提高重力储能效率、优化系统设计和降低工程成本，旨在为大规模能量存储和低碳电力系统转型提供创新解决方案。"
+bio: "We are dedicated to advancing gravity energy storage technology, focusing on improving efficiency, optimizing system design, and reducing engineering costs to provide innovative solutions for large-scale energy storage and low-carbon power system transformation."
 
 # Interests to show in About widget
 interests:
-  - 重力储能系统设计与优化
-  - 储能系统经济性分析
-  - 新能源电力系统集成
-  - 智能控制与自动化
-  - 可再生能源消纳技术
+  - Gravity Storage System Design and Optimization
+  - Energy Storage Economics Analysis
+  - New Energy Power System Integration
+  - Intelligent Control and Automation
+  - Renewable Energy Integration Technologies
 
 # Education to show in About widget
 education:
   courses:
-    - course: 重力储能示范工程
-      institution: 华北电力大学
+    - course: Gravity Energy Storage Demonstration Project
+      institution: North China Electric Power University
       year: 2024
-    - course: 储能技术研发中心
-      institution: 新能源电力系统国家重点实验室
+    - course: Energy Storage Technology R&D Center
+      institution: State Key Laboratory of New Energy Power Systems
       year: 2023
 
 # Social/Academic Networking
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:WenxuanTong@163.com'
+    link: 'mailto:chenyanbo@ncepu.edu.cn'
   - icon: globe
     icon_pack: fas
     link: 'https://laps.ncepu.edu.cn/'
   - icon: university
     icon_pack: fas
     link: 'https://www.ncepu.edu.cn/'
+  - icon: location-dot
+    icon_pack: fas
+    link: 'https://maps.google.com/?q=40.089709923765284,116.30624555215269'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "WenxuanTong@163.com"
+email: "chenyanbo@ncepu.edu.cn"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -61,6 +64,48 @@ user_groups:
   - Research Teams
 ---
 
-华北电力大学重力储能团队是一支跨学科协作的高水平研究团队，专注于探索重力储能技术在新能源电力系统中的应用。我们的研究涵盖系统设计、关键技术突破、经济性分析及工程示范等多个领域，旨在推动可再生能源的高效消纳和低碳电力系统的转型升级。
+## Team Profile
 
-借鉴国内外先进经验，我们不断优化技术方案，并与业界和科研机构开展广泛合作，共同应对大规模储能及能源转型的挑战。我们的团队致力于培养新一代储能技术人才，推动产学研深度融合，为国家能源革命和碳中和目标做出积极贡献。
+The NCEPU Gravity Energy Storage Team is a high-level interdisciplinary research group focused on exploring gravity energy storage technology applications in new energy power systems. Our research covers system design, key technology breakthroughs, economic analysis, and engineering demonstrations, aiming to promote efficient integration of renewable energy and low-carbon power system transformation.
+
+## Research Directions
+
+- **Gravity Storage System Design and Optimization**
+  - System Modeling and Simulation
+  - Parameter Optimization
+  - Performance Evaluation
+
+- **Storage System Control Strategies**
+  - Multi-objective Coordinated Control
+  - Intelligent Optimization Algorithms
+  - Operational Efficiency Enhancement
+
+- **Engineering Applications and Demonstrations**
+  - Demonstration Project Construction
+  - Engineering Technology Innovation
+  - Application Effect Assessment
+
+## Team Advantages
+
+1. **Research Platform**
+   - Support from State Key Laboratory
+   - Advanced Experimental Equipment
+   - Comprehensive Research Environment
+
+2. **Talent Development**
+   - PhD and Master's Programs
+   - International Exchange Opportunities
+   - Industry-Academia Integration
+
+3. **Collaboration Network**
+   - Long-term Industry Partnerships
+   - International Research Cooperation
+   - Technology Transfer Channels
+
+## Contact Information
+
+- **Office**: Room A758, Main Building, North China Electric Power University
+- **Address**: No.2 Beinong Road, Changping District, Beijing, China
+- **Postal Code**: 102206
+- **Tel**: +86-010-61771723
+- **Email**: chenyanbo@ncepu.edu.cn

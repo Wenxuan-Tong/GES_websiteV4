@@ -51,7 +51,7 @@ main:
   #   url: event
   #   weight: 40
 
-  - name: 学术论文
+  - name: 学术成果
     url: publication
     weight: 50
     lang: zh

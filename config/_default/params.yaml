@@ -66,10 +66,7 @@ header:
 # 页脚设置
 footer:
   copyright:
-    # 版权声明
-    notice:
-      en: '© {year} NCEPU Gravity Energy Storage Research Team. All Rights Reserved.'
-      zh: '© {year} 华北电力大学重力储能研究团队. 保留所有权利.'
+    notice: "© {year} 华北电力大学重力储能研究团队. 保留所有权利."
     license:
       # 是否启用许可证
       enable: true
@@ -83,15 +80,19 @@ footer:
 # 本地化设置
 locale:
   # 日期格式
+  date_format: '2006-01-02'
+  # 时间格式
+  time_format: '15:04'
+  # 地址格式
+  address_format: en-us
+
+i18n:
   date_format:
     en: '2006-01-02'
     zh: '2006年01月02日'
-  # 时间格式
   time_format:
     en: '15:04'
     zh: '15:04'
-  # 地址格式（改为 en-us，因为 zh-cn 格式未定义）
-  address_format: en-us
 
 # 功能特性设置
 features:
@@ -131,10 +132,24 @@ extensions:
   academicons:
     enable: true
 
+# 扩展功能设置
+site:
+  description: "Research team dedicated to gravity energy storage technology innovation and application"
+
 # 文献引用样式
 publications:
   date_format: '2006年01月'
   citation_style: apa
+
+languages:
+  en:
+    description: "Research team dedicated to gravity energy storage technology innovation and application"
+    date_format: "2006-01-02"
+    time_format: "15:04"
+  zh:
+    description: "致力于重力储能技术创新与应用的研究团队"
+    date_format: "2006年01月02日"
+    time_format: "15:04"
 
 en:
   description: "English description of your research group"

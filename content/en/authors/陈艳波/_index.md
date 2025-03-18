@@ -48,6 +48,12 @@ user_groups:
 
 Prof. Yanbo Chen is a professor and PhD supervisor at the School of Electrical and Electronic Engineering, North China Electric Power University. As a National Youth Talent, his research focuses on power system state estimation, intelligent optimization and control, energy storage technology and applications, and artificial intelligence applications in power systems. He has published over 100 papers in power systems, intelligent optimization and control, and energy storage technology fields, and has led multiple research projects including National Natural Science Foundation projects and industry collaborations.
 
+## Education
+
+- **2008-2013**: Ph.D. in Electrical Engineering, Tsinghua University
+- **2005-2008**: M.S. in Electrical Engineering, XX University
+- **2001-2005**: B.S. in Electrical Engineering and Automation, XX University
+
 ## Work Experience
 
 - **2013-Present**: Professor, PhD Supervisor, School of Electrical and Electronic Engineering, NCEPU
@@ -75,10 +81,11 @@ Prof. Yanbo Chen is a professor and PhD supervisor at the School of Electrical a
 ## Research Projects
 
 ### Principal Investigator
-1. National Key R&D Program Project
-2. 4 National Natural Science Foundation Projects
-3. 3 National Key Laboratory Projects
-4. Over 30 Industry Collaboration Projects
+1. National Key R&D Program Project (2023-2026)
+2. National Natural Science Foundation Key Project (2022-2025)
+3. 3 National Natural Science Foundation General Projects (2019-2024)
+4. 3 National Key Laboratory Open Projects (2020-2023)
+5. Over 30 Industry Collaboration Projects (2013-Present)
 
 ### Research Achievements
 - Published 2 academic monographs as first author
@@ -86,6 +93,17 @@ Prof. Yanbo Chen is a professor and PhD supervisor at the School of Electrical a
 - Granted over 50 invention patents as first inventor
 - Completed 1 technology transfer, 12 software copyrights
 - Participated in developing 2 industry standards
+
+## Representative Achievements
+
+### Journal Papers (Last 5 Years)
+1. [Paper 1, with complete citation information]
+2. [Paper 2, with complete citation information]
+3. [Paper 3, with complete citation information]
+
+### Patents (Representative)
+1. [Patent 1, with patent number and title]
+2. [Patent 2, with patent number and title]
 
 ## Teaching
 
@@ -97,16 +115,13 @@ Prof. Yanbo Chen is a professor and PhD supervisor at the School of Electrical a
 - Currently supervising XX PhD students, XX Master's students
 - Graduated XX PhD students, XX Master's students
 
-## Representative Publications
-
-[List 5-10 most representative papers, including publication year, journal name, impact factor, etc.]
-
 ## Academic Presentations
 
 [List recent important academic presentations, including conference name, presentation title, time, location, etc.]
 
 ## Contact Information
 
-- **Office Address**: Room A758, Main Building, North China Electric Power University
+- **Office Address**: Room A758, Main Building, North China Electric Power University, No.2 Beinong Road, Changping District, Beijing, China
+- **Postal Code**: 102206
 - **Email**: chenyanbo@ncepu.edu.cn
-- **Office Phone**: 010-61771723
+- **Office Phone**: +86-010-61771723

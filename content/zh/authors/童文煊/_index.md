@@ -8,7 +8,7 @@ last_name: 童
 
 # Username (this should match the folder name)
 authors:
-  - lixiaonan
+  - tongwenxuan
 
 # Is this the primary user of the site?
 superuser: false
@@ -28,10 +28,10 @@ bio: 主要研究方向为重力储能系统的运行控制与优化。
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:lixiaonan@ncepu.edu.cn'
+    link: 'mailto:13328782708@163.com'
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "lixiaonan@ncepu.edu.cn"
+email: "mailto:13328782708@163.com"
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
