@@ -24,18 +24,25 @@
 
 // 导航栏样式
 .navbar {
+  // 添加背景颜色
+  background-color: #004a8b !important; // 深蓝色背景
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.432) !important; // 添加阴影效果
+  
   .nav-link {
     @include bilingual-font;
     font-size: 1.2rem !important;
     font-weight: bold !important;
-    padding: 0.5rem 1rem !important;  // 设置导航项的内部间距
-    margin: 0 0.5rem !important;        // 设置导航项之间的间距
+    padding: 0.5rem 1rem !important;
+    margin: 0 0.5rem !important;
+    color: #ffffff !important; // 将导航标签文字颜色设置为黑色
   }
   
   .navbar-brand {
     @include bilingual-font;
     font-size: 1.5rem !important;
     font-weight: bold !important;
+    color: #fbff00 !important; // 品牌/logo文字也设为黑色
+    text-shadow: 1px 1px 2px rgb(0, 0, 0) !important; // 添加文字阴影增强可读性
   }
 }
 
