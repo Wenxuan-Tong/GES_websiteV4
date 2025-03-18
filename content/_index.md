@@ -21,7 +21,7 @@ sections:
       # 添加背景图片设置
       background:
         image:
-          filename: welcome.jpg # 替换为你的图片文件名
+          filename:  # 替换为你的图片文件名
           filters:
             brightness: 0.7 # 可调整亮度，范围0-1
           parallax: true # 是否启用视差滚动效果
