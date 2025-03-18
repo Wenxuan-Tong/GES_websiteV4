@@ -12,8 +12,20 @@ baseURL: 'https://example.com/' # Website URL
 
 defaultContentLanguage: zh # 修改默认语言为中文
 hasCJKLanguage: true      # 启用 CJK 语言支持
-defaultContentLanguageInSubdir: true # 启用语言子目录
+defaultContentLanguageInSubdir: false # 启用语言子目录
 removePathAccents: true
+
+languages:
+  zh:
+    languageCode: zh-CN
+    contentDir: content/zh
+    title: NCEPU-GEST
+    weight: 1
+  en:
+    languageCode: en-US
+    contentDir: content/en
+    title: NCEPU-GEST
+    weight: 2
 
 ############################
 ## ADVANCED
