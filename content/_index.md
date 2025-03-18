@@ -18,6 +18,16 @@ sections:
     design:
       columns: '2'
       css_class: text-center
+      # 添加背景图片设置
+      background:
+        image:
+          filename: welcome.jpg # 替换为你的图片文件名
+          filters:
+            brightness: 0.7 # 可调整亮度，范围0-1
+          parallax: true # 是否启用视差滚动效果
+          position: center # 图片位置
+          size: cover # 覆盖整个区域
+
   
   # - block: collection
   #   content:
@@ -36,55 +46,60 @@ sections:
   #     view: card
   #     columns: '1'
   
-  - block: markdown
-    content:
-      title: 研究方向
-      text: |
-        ### 电站级运行控制与配置优化
-        开发重力储能系统的优化控制策略，提升系统运行效率和可靠性。
+  # - block: markdown
+  #   content:
+  #     title: 研究方向
+  #     text: |
+  #       ### 电站级运行控制与配置优化
+  #       开发重力储能系统的优化控制策略，提升系统运行效率和可靠性。
 
-        ### 复合储能系统设计
-        研究重力储能与其他储能形式的协同运行机制，实现多能互补。
+  #       ### 复合储能系统设计
+  #       研究重力储能与其他储能形式的协同运行机制，实现多能互补。
 
-        ### 重力储能潜力与综合效益评估
-        分析不同地理环境下的重力储能应用潜力，评估其经济和环境效益。
+  #       ### 重力储能潜力与综合效益评估
+  #       分析不同地理环境下的重力储能应用潜力，评估其经济和环境效益。
 
-        ### 智能化技术应用
-        将人工智能技术应用于重力储能系统的设计、运行和维护。
-    design:
-      columns: '2'
-      background:
-        image: 
-          filename: 
-          filters:
-            brightness: 0.7
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
+  #       ### 智能化技术应用
+  #       将人工智能技术应用于重力储能系统的设计、运行和维护。
+  #   design:
+  #     columns: '2'
+  #     background:
+  #       image: 
+  #         filename: 
+  #         filters:
+  #           brightness: 0.7
+  #         parallax: false
+  #         position: center
+  #         size: cover
+  #         text_color_light: true
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
 
-  - block: collection
-    content:
-      title: 最新成果
-      text: ""
-      count: 3
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: citation
-      columns: '2'
+  # - block: collection
+  #   content:
+  #     title: 最新成果
+  #     text: ""
+  #     count: 3
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: citation
+  #     columns: '2'
 
-  - block: markdown
-    content:
-      title: 加入我们
-      text: |
-        我们始终欢迎优秀的人才加入团队，共同探索重力储能技术的创新发展。
-        
-        {{% cta cta_link="./contact/" cta_text="了解更多 →" %}}
-    design:
-      columns: '1'
+  # - block: markdown
+  #   content:
+  #     title: 加入我们
+  #     text: |
+  #       <br>
+  #       我们始终欢迎优秀的人才加入团队，共同探索重力储能技术的创新发展。
+              
+  #       {{% cta cta_link="./contact/" cta_text="了解更多 →" %}}
+
+  #       <br>
+  #   design:
+  #     columns: '1'
+  #     spacing:
+  #       padding: ['20px', '0', '20px', '0']
 ---
