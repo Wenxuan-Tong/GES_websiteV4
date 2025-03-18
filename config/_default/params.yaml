@@ -59,6 +59,18 @@ header:
     # 是否高亮当前页面链接
     highlight_active_link: true
 
+  # 添加logo配置
+  logo:
+    # 使用图片作为logo
+    image:
+      # 设置logo图片路径 (放在assets/media/目录下)
+      filename: 'logo.svg'
+      # 设置透明背景
+      transparent: true
+    # 显示标题文字
+    text:
+      show_title: true
+
 # 页脚设置
 footer:
   copyright:
